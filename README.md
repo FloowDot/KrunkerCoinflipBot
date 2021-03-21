@@ -40,4 +40,4 @@ Command Documentation:
     .coinflip create <amount> - Creates a coinflip for <amount> on heads
     .coinflip join <user> - Joins tagged users coinflip (Automatically picks winner and sends KR)
     .coinflip cancel - Cancels current coinflip
-.leaderboard - Shows a leaderboard of highest KR balances
+.leaderboard - Shows a leaderboard of highest KR balances 
