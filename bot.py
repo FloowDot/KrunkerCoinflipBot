@@ -77,7 +77,12 @@ async def backup():
         f.write(j)
         f.close()
 
-
+@client.command()
+async def info(ctx):
+    if ctx.message.channel.id not in [commandChannelID, coinflipChannelID]:
+        return
+    embed = easyEmbed('INFO', f'This bot was created by <@234888341789605888>, the source code can be found here: https://github.com/FloowDot/KrunkerCoinflipBot If you are interested in the full version feel free to contact me (:')
+    await ctx.send(embed = embed)
 
 async def createKey(id, level_ = 0, kr_ = 10, gems_ = 0, inventory_ = []):
     global data
