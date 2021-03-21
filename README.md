@@ -30,14 +30,21 @@ Now you are ready to run bot.py, existing members can set up their balance by do
 Command Documentation:
 
 .balancereset <userid> <confirm> - Resets the balance of a user. <confirm>'s value should be 'confirm' (Admin only command)
+
 .balance <user> - Checks the balance of the tagged user. Don't tag anyone to check your own balance
+
 .deposit <amount> <ign> - Command used for a member to indicate they want to deposit
+
 .withdraw <amount> <ign> - Command used for a member to indicate they want to withdraw and to what account (Automatically accounts for gift fees)
+
 .link <ign> - Quickly creates a profile link
+
 .add <amount> <user> - Adds/Subtracts <amount> KR to tagged users balance for depositting/withdrawing. (Use negative numbers to remove from balance) (Dealer only command)
+
 .coinflip <action>
     .coinflip list - displays a list of coinflips to join
     .coinflip create <amount> - Creates a coinflip for <amount> on heads
     .coinflip join <user> - Joins tagged users coinflip (Automatically picks winner and sends KR)
     .coinflip cancel - Cancels current coinflip
-.leaderboard - Shows a leaderboard of highest KR balances 
+
+.leaderboard - Shows a leaderboard of highest KR balances  
