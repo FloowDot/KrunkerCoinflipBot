@@ -42,9 +42,13 @@ Command Documentation:
 .add <amount> <user> - Adds/Subtracts <amount> KR to tagged users balance for depositting/withdrawing. (Use negative numbers to remove from balance) (Dealer only command)
 
 .coinflip <action>
+    
     .coinflip list - displays a list of coinflips to join
+    
     .coinflip create <amount> - Creates a coinflip for <amount> on heads
+    
     .coinflip join <user> - Joins tagged users coinflip (Automatically picks winner and sends KR)
+    
     .coinflip cancel - Cancels current coinflip
 
 .leaderboard - Shows a leaderboard of highest KR balances  
